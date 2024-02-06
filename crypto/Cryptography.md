@@ -54,7 +54,7 @@ LibrePass utilizes Argon2id, a memory-hard and secure password hashing function,
 
 3. **Vault Encryption**
 
-The ciphers are encrypted using the 256-bit symetric encryption algorithm named AES in GCM mode using the user's encryption key. Then the encrypted data is sent to the server and stored in the database.
+The ciphers are encrypted using the 256-bit symmetric encryption algorithm named AES in GCM mode using the user's encryption key. Then the encrypted data is sent to the server and stored in the database.
 
 ```
 AesGcmEncrypt(userEncryptionKey, cipherData) -> encryptedCipherData
